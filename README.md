@@ -1,9 +1,24 @@
-Exercícios de lógica de programação 1
+# Kotlin: Fundamentos e Cálculos Geométricos
 
-1- Escreva um programa que crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
+Resolução do primeiro bloco de exercícios em **Kotlin**, focando em manipulação de variáveis, entrada de dados e lógica matemática básica.
 
-2- Escreva um programa em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".
+## Desafios Resolvidos
+1.  **Variáveis Estáticas:** Criação e exibição de variáveis de texto.
+2.  **Interação com Usuário:** Leitura de entradas do teclado para saudações personalizadas.
+3.  **Interpolação de Strings:** Exibição de mensagens combinando nome e idade em uma única saída.
+4.  **Cálculo de Áreas de Figuras Planas:** Algoritmos para calcular a área de diversas formas:
+    * **Retângulo e Quadrado:** $A = base \times altura$
+    * **Losango:** $A = (diagonal\_maior \times diagonal\_menor) / 2$
+    * **Trapézio:** $A = ((base\_maior + base\_menor) \times h) / 2$
+    * **Triângulo:** $A = (base \times altura) / 2$
+    * **Círculo:** Cálculo utilizando o raio e constante Pi definida manualmente.
 
-3- Escreva um programa em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".
+## Conceitos Técnicos
+* **Declaração de Variáveis:** Diferenciação entre `val` e `var`.
+* **Entrada de Dados:** Uso de `readln()` com conversão de tipos (`.toDouble()`).
+* **String Templates:** Uso do símbolo `$` para formatação de texto simplificada.
+* **Operadores Aritméticos:** Implementação direta de fórmulas matemáticas.
 
-4- Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável. Áreas de Figuras Planas
+## Tecnologias
+* **Linguagem:** Kotlin
+* **Ferramenta:** IntelliJ IDEA
